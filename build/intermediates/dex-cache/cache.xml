@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.4.0_b27c0b13d89d4ce367301c4525145a88cbc39b17.jar" />
+    </item>
+    <item
+        jar="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.4.0_e3c5325047ee91067ae97c4ca17efcd96b346111.jar" />
+    </item>
+    <item
+        jar="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.4.0_2694d1e9a90e5b1e191e37441fd9dc6b59eaed95.jar" />
+    </item>
+    <item
+        jar="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\pre-dexed\release\com.android.support-design-23.4.0_c13b11f1dce109dd8197947ea94af51a29d3a4d9.jar" />
+    </item>
+    <item
+        jar="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.4.0_34589fe604160ea552db5d204f2d9621e35f34f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\MIGUEL\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\pre-dexed\release\support-annotations-23.4.0_e0d1df5b0c4a80dd055c7528bd6e81a56bd1eef7.jar" />
+    </item>
+    <item
+        jar="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\pre-dexed\release\internal_impl-23.4.0_045c7dcea093770718fcb7d4e0055f4ceacf5a66.jar" />
+    </item>
+    <item
+        jar="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.4.0_57d4f41a22ac5b446a36f3503c6576b3ecc94000.jar" />
+    </item>
+    <item
+        jar="C:\Users\MIGUEL\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\MIGUEL\AndroidStudioProjects\Prueba\Mibebe\app\build\intermediates\pre-dexed\release\library-1.0.19_4e1632c14732973aaacd293a62d7f17cbe49b2b6.jar" />
+    </item>
+
+</items>

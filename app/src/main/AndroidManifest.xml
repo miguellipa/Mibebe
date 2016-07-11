@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pe.edu.urp.mibebe">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.PrincipalActivity"
+            android:label="@string/title_activity_principal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:parentActivityName=".activities.PrincipalActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.PrincipalActivity" />
+        </activity>
+        <activity
+            android:name=".activities.InformationActivity"
+            android:label="@string/title_activity_information"
+            android:parentActivityName=".activities.MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".activities.RecordActivity"
+            android:label="Lista de Incidencias Medicas"
+            android:parentActivityName=".activities.MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".activities.MedicalActivity"
+            android:label="@string/title_activity_medical"
+            android:parentActivityName=".activities.MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ControlgrowthActivity"
+            android:label="@string/title_activity_controlgrowth"
+            android:parentActivityName=".activities.MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ControlvaccinesActivity"
+            android:label="@string/title_activity_controlvaccines"
+            android:parentActivityName=".activities.MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".activities.MedicalevidenceActivity"
+            android:label="@string/title_activity_medicalevidence"
+            android:parentActivityName=".activities.MenuActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".activities.pollActivity"
+            android:label="@string/title_activity_poll"
+            android:parentActivityName=".activities.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.LoginActivity" />
+        </activity>
+    </application>
+
+</manifest>

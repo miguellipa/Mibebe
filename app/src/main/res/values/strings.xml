@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mi Bebe</string>
+    <string name="title_activity_principal">Mi Bebe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Cerrar Sesión</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_information">Información General</string>
+    <string name="title_activity_record">Lista de Incidencias Medicas</string>
+    <string name="title_activity_medical">Incidencias Medicas</string>
+    <string name="title_activity_controlgrowth">Mi crecimiento</string>
+    <string name="title_activity_controlvaccines">Mis vacunas</string>
+    <string name="title_activity_medicalevidence">Mis Evidencias Medicas</string>
+    <string name="title_activity_poll">Encuesta</string>
+
+</resources>
