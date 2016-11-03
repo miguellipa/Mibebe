@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pe.edu.urp.mibebe">
+    package="com.pe.mi.bebe">
 
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -17,7 +17,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.LoginActivity">
+        <activity android:name="com.pe.mi.bebe.activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,80 +25,80 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.PrincipalActivity"
+            android:name="com.pe.mi.bebe.activities.PrincipalActivity"
             android:label="@string/title_activity_principal"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activities.MenuActivity"
+            android:name="com.pe.mi.bebe.activities.MenuActivity"
             android:label="@string/title_activity_menu"
-            android:parentActivityName=".activities.PrincipalActivity"
+            android:parentActivityName="com.pe.mi.bebe.activities.PrincipalActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.PrincipalActivity" />
+                android:value="com.pe.mi.bebe.activities.PrincipalActivity" />
         </activity>
         <activity
-            android:name=".activities.InformationActivity"
+            android:name="com.pe.mi.bebe.activities.InformationActivity"
             android:label="@string/title_activity_information"
-            android:parentActivityName=".activities.MenuActivity"
+            android:parentActivityName="com.pe.mi.bebe.activities.MenuActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MenuActivity" />
+                android:value="com.pe.mi.bebe.activities.MenuActivity" />
         </activity>
         <activity
-            android:name=".activities.RecordActivity"
+            android:name="com.pe.mi.bebe.activities.RecordActivity"
             android:label="Lista de Incidencias Medicas"
-            android:parentActivityName=".activities.MenuActivity"
+            android:parentActivityName="com.pe.mi.bebe.activities.MenuActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MenuActivity" />
+                android:value="com.pe.mi.bebe.activities.MenuActivity" />
         </activity>
         <activity
-            android:name=".activities.MedicalActivity"
+            android:name="com.pe.mi.bebe.activities.MedicalActivity"
             android:label="@string/title_activity_medical"
-            android:parentActivityName=".activities.MenuActivity"
+            android:parentActivityName="com.pe.mi.bebe.activities.MenuActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MenuActivity" />
+                android:value="com.pe.mi.bebe.activities.MenuActivity" />
         </activity>
         <activity
-            android:name=".activities.ControlgrowthActivity"
+            android:name="com.pe.mi.bebe.activities.ControlgrowthActivity"
             android:label="@string/title_activity_controlgrowth"
-            android:parentActivityName=".activities.MenuActivity"
+            android:parentActivityName="com.pe.mi.bebe.activities.MenuActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MenuActivity" />
+                android:value="com.pe.mi.bebe.activities.MenuActivity" />
         </activity>
         <activity
-            android:name=".activities.ControlvaccinesActivity"
+            android:name="com.pe.mi.bebe.activities.ControlvaccinesActivity"
             android:label="@string/title_activity_controlvaccines"
-            android:parentActivityName=".activities.MenuActivity"
+            android:parentActivityName="com.pe.mi.bebe.activities.MenuActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MenuActivity" />
+                android:value="com.pe.mi.bebe.activities.MenuActivity" />
         </activity>
         <activity
-            android:name=".activities.MedicalevidenceActivity"
+            android:name="com.pe.mi.bebe.activities.MedicalevidenceActivity"
             android:label="@string/title_activity_medicalevidence"
-            android:parentActivityName=".activities.MenuActivity"
+            android:parentActivityName="com.pe.mi.bebe.activities.MenuActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.MenuActivity" />
+                android:value="com.pe.mi.bebe.activities.MenuActivity" />
         </activity>
         <activity
-            android:name=".activities.pollActivity"
+            android:name="com.pe.mi.bebe.activities.pollActivity"
             android:label="@string/title_activity_poll"
-            android:parentActivityName=".activities.LoginActivity"
+            android:parentActivityName="com.pe.mi.bebe.activities.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.LoginActivity" />
+                android:value="com.pe.mi.bebe.activities.LoginActivity" />
         </activity>
     </application>
 

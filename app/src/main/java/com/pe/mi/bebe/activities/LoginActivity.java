@@ -1,0 +1,142 @@
+package com.pe.mi.bebe.activities;
+
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.text.Html;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.android.volley.RequestQueue;
+
+import com.android.volley.toolbox.Volley;
+
+
+import com.pe.mi.bebe.R;
+
+public class LoginActivity extends AppCompatActivity {
+
+    Button btnLogin,btnEncuesta;
+    EditText txtUs,txtpass;
+
+    public static final String LOGIN_URL = "http://192.168.1.35:8089/ServicioREST/v1/usuarios/login";
+
+    public static final String KEY_USERNAME="usuario";
+    public static final String KEY_PASSWORD="contrasena";
+
+    private String user;
+    private String pass;
+    String data = "";
+    TextView results;
+    RequestQueue requestQueue;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+        txtUs = (EditText) findViewById(R.id.txtusu);
+        txtpass = (EditText) findViewById(R.id.txtpass);
+        btnLogin = (Button) findViewById(R.id.btnIogin);
+        btnEncuesta = (Button) findViewById(R.id.btnEncuesta);
+        TextView errorMsg;
+
+        TextView textView = (TextView) findViewById(R.id.textView2);
+        String htmlString = "<u>Olvidaste tu contraseña?</u>";
+        textView.setText(Html.fromHtml(htmlString));
+
+        requestQueue = Volley.newRequestQueue(this);
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                //validar nombre de usuario y contraseña -----
+                user = txtUs.getText().toString();
+                pass = txtpass.getText().toString();
+
+
+
+                if (!user.isEmpty() && !pass.isEmpty()) {
+
+                    if(user.equals("Miguel") && pass.equals("12345")){
+                        Intent principal = new Intent(LoginActivity.this,PrincipalActivity.class);
+                        startActivity(principal);
+                        Toast.makeText(LoginActivity.this, "Bienvenido!!", Toast.LENGTH_SHORT).show();
+                    }
+
+
+                    /*Map<String, String> jsonParams = new HashMap<String, String>();
+                    //jsonParams.put("usuario", user);
+                    //jsonParams.put("contrasena", pass);
+
+                    JsonObjectRequest obreq = new JsonObjectRequest(Request.Method.POST, LOGIN_URL,
+                            new JSONObject(jsonParams),
+                            new Response.Listener<JSONObject>() {
+
+                                // Takes the response from the JSON request
+                                @Override
+                                public void onResponse(JSONObject response) {
+                                    try {
+                                        System.out.println(response);
+                                        JSONObject obj = response.getJSONObject("usuarios");
+                                        String usuario = obj.getString("usuario");
+                                        String contrasena = obj.getString("contrasena");
+                                        String nombre = obj.getString("nombre");
+                                        String apellido = obj.getString("apellido");
+                                        String idusuario = obj.getString("idusuario");
+
+                                        Toast.makeText(LoginActivity.this, "Bienvenido!!", Toast.LENGTH_SHORT).show();
+                                        Intent principal = new Intent(LoginActivity.this,PrincipalActivity.class);
+                                        principal.putExtra("usuario",usuario);
+                                        principal.putExtra("nombre",nombre);
+                                        principal.putExtra("nombre",apellido);
+                                        principal.putExtra("nombre",idusuario);
+                                        startActivity(principal);
+                                    }
+                                    // Try and catch are included to handle any errors due to JSON
+                                    catch (Exception e) {
+                                        // If an error occurs, this prints the error to the log
+                                        e.printStackTrace();
+                                    }
+                                }
+                            },
+                            // The final parameter overrides the method onErrorResponse() and passes VolleyError
+                            //as a parameter
+                            new Response.ErrorListener() {
+                                @Override
+                                // Handles errors that occur due to Volley
+                                public void onErrorResponse(VolleyError error) {
+                                    Toast.makeText(LoginActivity.this, "Usuario o Contraseña Incorrecto", Toast.LENGTH_SHORT).show();
+                                    Log.e("Volley", "Error");
+
+                                }
+                            }
+                    );
+                    // Adds the JSON object request "obreq" to the request queue
+                    requestQueue.add(obreq);
+                    */
+                } else {
+                    Toast.makeText(LoginActivity.this, "Ingrese el Usuario y Contraseña", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+
+        });
+
+        btnEncuesta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                    Intent principal = new Intent(LoginActivity.this,pollActivity.class);
+                    startActivity(principal);
+            }
+        });
+
+
+}
+
+
+
+}

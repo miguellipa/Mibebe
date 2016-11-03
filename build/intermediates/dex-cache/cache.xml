@@ -2,81 +2,85 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_48a265ab4edd235fd880d441d6aa507135c8d40f\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_eefb17d8e97c552eed8b0ebf43ae6b71a5d759a8\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="8e59dca96616d45e18314c9dfab19609b59e48ad">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5b55ce7551e158b35a9c5e3842f2ba205651f66b\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_06ef713b341147e257f5ee3b8b95111e864d06d2\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_a5b751927c38813757d78a3faf439dbe8dec178d\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_0b85c42333ab10d0d45d9f545e249d5d25a7542c\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.0"
-        sha1="10481e7af0bf2132e48906ffdd1bcf597730de4a">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e6c59f25232838b6e1ad1b326963abc531503206\classes.dex" />
-    </item>
-    <item
+        is-multidex="false"
         jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.0"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_7331d960e062730d54513dcdfc380db1ee295c12\classes.dex" />
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_7331d960e062730d54513dcdfc380db1ee295c12.jar" />
     </item>
     <item
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_049fc7e205fe440139ba61f4d9946029e625318e\classes.dex" />
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_0b85c42333ab10d0d45d9f545e249d5d25a7542c.jar" />
     </item>
     <item
-        jar="C:\Users\Miguel\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.0"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.19_2f61927ff90186f9e7ff836639d0a89562cefed3\classes.dex" />
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_06ef713b341147e257f5ee3b8b95111e864d06d2.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_a5b751927c38813757d78a3faf439dbe8dec178d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_48a265ab4edd235fd880d441d6aa507135c8d40f.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Miguel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.0"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fcbdef6d4bc64de05c71fa7d943687e43a31c63c\classes.dex" />
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_fcbdef6d4bc64de05c71fa7d943687e43a31c63c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_eefb17d8e97c552eed8b0ebf43ae6b71a5d759a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_049fc7e205fe440139ba61f4d9946029e625318e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Miguel\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\library-1.0.19_2f61927ff90186f9e7ff836639d0a89562cefed3.jar" />
     </item>
 
 </items>
