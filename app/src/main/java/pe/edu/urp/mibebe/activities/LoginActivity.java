@@ -17,7 +17,6 @@ import com.android.volley.toolbox.Volley;
 
 
 import pe.edu.urp.mibebe.R;
-import pe.edu.urp.mibebe.Utility;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -59,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-                if (Utility.isNotNull(user) && Utility.isNotNull(pass)) {
+                if (!user.isEmpty() && !pass.isEmpty()) {
 
                     if(user.equals("Miguel") && pass.equals("12345")){
                         Intent principal = new Intent(LoginActivity.this,PrincipalActivity.class);

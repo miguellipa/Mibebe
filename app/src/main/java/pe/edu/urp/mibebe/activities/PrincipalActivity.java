@@ -17,11 +17,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import pe.edu.urp.mibebe.ChildArrayAdapter;
-import pe.edu.urp.mibebe.DataSource;
+import pe.edu.urp.mibebe.adapters.ChildArrayAdapter;
+import pe.edu.urp.mibebe.adapters.DataSource;
 import pe.edu.urp.mibebe.R;
-import pe.edu.urp.mibebe.activities.LoginActivity;
-import pe.edu.urp.mibebe.activities.MenuActivity;
 import pe.edu.urp.mibebe.models.Child;
 
 

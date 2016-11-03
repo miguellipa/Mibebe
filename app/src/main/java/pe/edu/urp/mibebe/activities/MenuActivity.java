@@ -10,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import pe.edu.urp.mibebe.MenuListAdapter;
+import pe.edu.urp.mibebe.adapters.MenuListAdapter;
 import pe.edu.urp.mibebe.R;
 
 public class MenuActivity extends AppCompatActivity {
