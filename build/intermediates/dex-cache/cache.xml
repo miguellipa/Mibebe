@@ -2,85 +2,247 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Miguel\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_7331d960e062730d54513dcdfc380db1ee295c12.jar" />
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_e232809202779d5515c8436ce8bf64ffe4216da0\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Miguel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.0"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_0b85c42333ab10d0d45d9f545e249d5d25a7542c.jar" />
+        revision="23.0.3"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_f3a586aff5a187ca9dc751314cd10d5ab106a92d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Miguel\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_06ef713b341147e257f5ee3b8b95111e864d06d2.jar" />
+        revision="23.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_56718a34622933894fe5ea52ed82e62601f33990\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_a5b751927c38813757d78a3faf439dbe8dec178d.jar" />
+        revision="23.0.3"
+        sha1="0eb885fdd7009438880149fe33cd92a0e8396ad1">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5b55ce7551e158b35a9c5e3842f2ba205651f66b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.2\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.0"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_48a265ab4edd235fd880d441d6aa507135c8d40f.jar" />
+        revision="23.0.3"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-beta-1.2.2_c868f578d08d41aa663b4993702251662df965bd\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Miguel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Miguel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit-mock\2.0.2\befed42cb4fb8e85ef205b3facfd5b4e43fc1c8f\retrofit-mock-2.0.2.jar"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.0"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_fcbdef6d4bc64de05c71fa7d943687e43a31c63c.jar" />
+        revision="23.0.3"
+        sha1="befed42cb4fb8e85ef205b3facfd5b4e43fc1c8f">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-mock-2.0.2_fbece8692f5f1073758d8fdc17e680b344d88c34\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.0"
+        revision="23.0.3"
         sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_eefb17d8e97c552eed8b0ebf43ae6b71a5d759a8.jar" />
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_eefb17d8e97c552eed8b0ebf43ae6b71a5d759a8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.digits.sdk.android\digits\2.0.3\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_049fc7e205fe440139ba61f4d9946029e625318e.jar" />
+        revision="23.0.3"
+        sha1="b3abc0963efaba458cca95adfd3e46466a9019b2">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.digits.sdk.android-digits-2.0.3_a62928be85cf0923d1187e206a1d8a963fb8f0d5\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.14\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-core-2.3.14_e0e00087e3b8641a47576fbbbc51ccd89a10f6de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_7331d960e062730d54513dcdfc380db1ee295c12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.10\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-1.3.10_87efe8f7c99b7a1b932e9ba2e70e188e1f915a6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers-shim\0.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="29864b68d990da5b14dbff9fbecf10600bcf7603">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-shim-0.0.4_bc4025fea2e6e12d8574147094bbeb86d72b6faa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_06ef713b341147e257f5ee3b8b95111e864d06d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_9a2b770e8de55f89db8985756d62ae8cf47f75b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fc18a0fdc80391aaf9a93e629f1a6f03cf6a9cf4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_0b85c42333ab10d0d45d9f545e249d5d25a7542c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_48a265ab4edd235fd880d441d6aa507135c8d40f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.appsee\appsee-android\2.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6cbcdf67ab971e937c4206ed3a279f87207ae438">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.appsee-appsee-android-2.3_742a20487f0464a1c9eb971634181d2badfc984c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter-core\2.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2a3224154b36aa5bb941f20d1625ba1fb20aa3a7">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.twitter.sdk.android-twitter-core-2.2.0_e8fc23601069d7acb3f1f6c31aa2256d71d5bd11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_0fdbb1b57ca461c750366feb0eef5ca5655de41e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f6cd8b86f1a65b706d9872ab004cefb6c743f336">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e6c59f25232838b6e1ad1b326963abc531503206\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_a5b751927c38813757d78a3faf439dbe8dec178d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Miguel\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
-        revision="23.0.0"
+        revision="23.0.3"
         sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\pre-dexed\debug\library-1.0.19_2f61927ff90186f9e7ff836639d0a89562cefed3.jar" />
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.19_2f61927ff90186f9e7ff836639d0a89562cefed3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_049fc7e205fe440139ba61f4d9946029e625318e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.14\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.fabric.sdk.android-fabric-1.3.14_3f99b61f31291439089dcfee5174472b8393e730\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-2.6.5_adcd18889350d8949d305edefc132862d39a5eba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Miguel\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-all\1.3\63a21ebc981131004ad02e0434e799fd7f3a8d5a\hamcrest-all-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="63a21ebc981131004ad02e0434e799fd7f3a8d5a">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\Mibebe\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-all-1.3_2cb87990287bdad8868aab4d2fbd5d0855d7c94c\classes.dex" />
     </item>
 
 </items>

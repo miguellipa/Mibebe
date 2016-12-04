@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,11 +15,28 @@ import android.widget.Toast;
 import com.android.volley.RequestQueue;
 
 import com.android.volley.toolbox.Volley;
+import com.appsee.Appsee;
+import io.fabric.sdk.android.Fabric;
 
-
+import com.crashlytics.android.core.CrashlyticsCore;
+import com.digits.sdk.android.AuthCallback;
+import com.digits.sdk.android.DigitsAuthButton;
+import com.digits.sdk.android.DigitsException;
+import com.digits.sdk.android.DigitsSession;
 import com.pe.mi.bebe.R;
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
+
+import com.digits.sdk.android.Digits;
+import com.twitter.sdk.android.core.TwitterAuthConfig;
+import com.twitter.sdk.android.core.TwitterCore;
+import io.fabric.sdk.android.Fabric;
 
 public class LoginActivity extends AppCompatActivity {
+
+    // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
+    private static final String TWITTER_KEY = "pWzZTK42XVJh80UhZNeGldTRR";
+    private static final String TWITTER_SECRET = "cRBKuSZ1OVqH5uMYlLQUqOcIOIRpytromJU4TWLcPquMuBL2pf";
 
     Button btnLogin,btnEncuesta;
     EditText txtUs,txtpass;
@@ -36,6 +54,10 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
+        Fabric.with(this, new TwitterCore(authConfig), new Digits.Builder().build(), new Crashlytics());
+        Appsee.start(getString(R.string.com_appsee_apikey));
+
         setContentView(R.layout.activity_login);
         txtUs = (EditText) findViewById(R.id.txtusu);
         txtpass = (EditText) findViewById(R.id.txtpass);
@@ -55,8 +77,6 @@ public class LoginActivity extends AppCompatActivity {
                 //validar nombre de usuario y contraseña -----
                 user = txtUs.getText().toString();
                 pass = txtpass.getText().toString();
-
-
 
                 if (!user.isEmpty() && !pass.isEmpty()) {
 
@@ -134,9 +154,25 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        DigitsAuthButton digitsButton = (DigitsAuthButton) findViewById(R.id.auth_button);
+        digitsButton.setCallback(new AuthCallback() {
+            @Override
+            public void success(DigitsSession session, String phoneNumber) {
+                // TODO: associate the session userID with your user model
+                Intent principal = new Intent(LoginActivity.this,PrincipalActivity.class);
+                startActivity(principal);
+                Toast.makeText(LoginActivity.this, "Autenticación satisfactoria para "+phoneNumber +" !!", Toast.LENGTH_SHORT).show();
+
+            }
+
+            @Override
+            public void failure(DigitsException exception) {
+                Log.d("Digits", "Sign in with Digits failure", exception);
+            }
+        });
+
+
 
 }
-
-
 
 }

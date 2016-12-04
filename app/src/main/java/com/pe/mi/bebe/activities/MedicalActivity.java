@@ -89,7 +89,7 @@ public class MedicalActivity extends AppCompatActivity {
         final CharSequence[] options = { "Tomar Foto", "Escojer una foto de la galeria","Cancelar" };
 
         AlertDialog.Builder builder = new AlertDialog.Builder(MedicalActivity.this);
-        builder.setTitle("Añadir Foto!");
+        builder.setTitle("Añadir Foto");
         builder.setItems(options, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int item) {

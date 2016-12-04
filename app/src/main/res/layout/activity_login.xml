@@ -148,35 +148,6 @@
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/linearLayout9"
-        android:layout_alignParentStart="true"
-        android:weightSum="1"
-        android:id="@+id/linearLayout"
-        android:layout_marginTop="10dp">
-
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="60dp"
-            android:id="@+id/imageView4"
-            android:layout_alignTop="@+id/linearLayout9"
-            android:layout_toEndOf="@+id/imageView"
-            android:src="@drawable/facebook"
-            android:layout_marginLeft="80dp"
-            android:clickable="true" />
-
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="60dp"
-            android:id="@+id/imageView5"
-            android:layout_marginLeft="30dp"
-            android:src="@drawable/google_icono"
-            android:clickable="true" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout"
         android:layout_alignParentStart="true">
 
@@ -186,6 +157,25 @@
             android:text="Encuesta"
             android:id="@+id/btnEncuesta"
             android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/linearLayout9"
+        android:layout_centerHorizontal="true">
+
+        <com.digits.sdk.android.DigitsAuthButton
+            android:id="@+id/auth_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MI NUMERO"
+            tools:text="MI NUMERO" />
+
+
     </LinearLayout>
 
 </RelativeLayout>

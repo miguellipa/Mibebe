@@ -1,17 +1,22 @@
 package com.pe.mi.bebe.models;
 
 
-public class Vaccine_plan {
+public class VaccinePlan {
 
     private int id;
     private String nmes;
     private Vaccine vaccine;
 
-    public Vaccine_plan(int id, String nmes, Vaccine vaccine) {
+    public VaccinePlan(int id, String nmes, Vaccine vaccine) {
         this.id = id;
         this.nmes = nmes;
         this.vaccine = vaccine;
     }
+
+    public VaccinePlan(){
+
+    }
+
 
     public Vaccine getVaccine() {
         return vaccine;

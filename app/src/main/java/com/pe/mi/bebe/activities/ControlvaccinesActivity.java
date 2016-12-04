@@ -32,7 +32,7 @@ import java.util.Calendar;
 
 import com.pe.mi.bebe.R;
 
-public class ControlvaccinesActivity extends AppCompatActivity {
+public class ControlVaccinesActivity extends AppCompatActivity {
 
     private Spinner spinner;
     private static final String[]vacunas = {"Seleccione..","Hepatitis 1", "Hepatitis 2", "Hepatitis 3","Polio 1", "Polio 2","Polio 3","Polio 4"};
@@ -61,9 +61,9 @@ public class ControlvaccinesActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        spinner = (Spinner)findViewById(R.id.spinner);
+        spinner = (Spinner)findViewById(R.id.spinner_vaccine);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(ControlvaccinesActivity.this,
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(ControlVaccinesActivity.this,
                 android.R.layout.simple_spinner_item,vacunas);
 
 
@@ -80,7 +80,7 @@ public class ControlvaccinesActivity extends AppCompatActivity {
                 int mMonth = c.get(Calendar.MONTH); // current month
                 int mDay = c.get(Calendar.DAY_OF_MONTH); // current day
                 // date picker dialog
-                datePickerDialog = new DatePickerDialog(ControlvaccinesActivity.this,
+                datePickerDialog = new DatePickerDialog(ControlVaccinesActivity.this,
                         new DatePickerDialog.OnDateSetListener() {
 
                             @Override
@@ -110,10 +110,10 @@ public class ControlvaccinesActivity extends AppCompatActivity {
 
     private void selectImage() {
 
-        final CharSequence[] options = { "Tomar Foto", "Escojer una foto de la galeria","Cancelar" };
+        final CharSequence[] options = { "Tomar Foto", "Elegir una foto de la galeria","Cancelar" };
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(ControlvaccinesActivity.this);
-        builder.setTitle("Add Photo!");
+        AlertDialog.Builder builder = new AlertDialog.Builder(ControlVaccinesActivity.this);
+        builder.setTitle("Añadir Foto");
         builder.setItems(options, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int item) {
@@ -124,7 +124,7 @@ public class ControlvaccinesActivity extends AppCompatActivity {
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(f));
                     startActivityForResult(intent, 1);
                 }
-                else if (options[item].equals("Escojer una foto de la galeria"))
+                else if (options[item].equals("Elegir una foto de la galeria"))
                 {
                     Intent intent = new   Intent(Intent.ACTION_PICK,android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                     startActivityForResult(intent, 2);

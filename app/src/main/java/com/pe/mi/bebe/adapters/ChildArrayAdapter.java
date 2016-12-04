@@ -51,7 +51,7 @@ public class ChildArrayAdapter extends ArrayAdapter<Child> {
         //String dateofbirth = formatter.format(item.getDate_of_birth());
 
         titulo.setText(item.getName());
-        subtitulo.setText(item.getDate_of_birth());
+        subtitulo.setText(item.getDateOfBirth());
         categoria.setImageResource(item.getPhoto());
 
         //Devolver al ListView la fila creada

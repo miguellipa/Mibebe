@@ -1,16 +1,21 @@
 package com.pe.mi.bebe.models;
 
-
-public class Medical_exam {
+public class ChildDevelopment {
 
     private int id;
     private String name;
-    private int type;
+    private int month;
 
-    public Medical_exam(int id, String name, int type) {
+
+
+    public ChildDevelopment(int id, String name, int month) {
         this.id = id;
         this.name = name;
-        this.type = type;
+        this.month = month;
+    }
+
+    public ChildDevelopment(){
+
     }
 
     public int getId() {
@@ -29,11 +34,13 @@ public class Medical_exam {
         this.name = name;
     }
 
-    public int getType() {
-        return type;
+    public int getMonth() {
+        return month;
     }
 
-    public void setType(int type) {
-        this.type = type;
+    public void setMonth(int month) {
+        this.month = month;
     }
+
+
 }

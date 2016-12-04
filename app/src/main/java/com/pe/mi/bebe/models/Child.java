@@ -4,16 +4,16 @@ public class Child {
 
     private int childid;
     private String name;
-    private String date_of_birth;
+    private String dateOfBirth;
     private int photo;
     private double weight;
     private double size;
     private int idcart;
 
-    public Child(int childid, String name, String date_of_birth, double weight, double size, int photo, int idcart) {
+    public Child(int childid, String name, String dateOfBirth, double weight, double size, int photo, int idcart) {
         this.childid = childid;
         this.name = name;
-        this.date_of_birth = date_of_birth;
+        this.dateOfBirth = dateOfBirth;
         this.weight = weight;
         this.size = size;
         this.photo = photo;
@@ -23,9 +23,14 @@ public class Child {
     public Child(int childid,String name,String date_of_birth,int photo){
                this.setChildid(childid);
                 this.name = name;
-                this.date_of_birth = date_of_birth;
+                this.dateOfBirth = date_of_birth;
                 this.setPhoto(photo);
             }
+
+    public Child(String name){
+        this.name = name;
+
+    }
 
     public int getChildid() {
         return childid;
@@ -51,12 +56,12 @@ public class Child {
         this.photo = photo;
     }
 
-    public String getDate_of_birth() {
-        return date_of_birth;
+    public String getDateOfBirth() {
+        return dateOfBirth;
     }
 
-    public void setDate_of_birth(String date_of_birth) {
-        this.date_of_birth = date_of_birth;
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 
     public double getWeight() {
@@ -82,6 +87,7 @@ public class Child {
     public void setIdcart(int idcart) {
         this.idcart = idcart;
     }
+
 
 
 

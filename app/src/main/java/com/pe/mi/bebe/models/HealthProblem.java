@@ -1,14 +1,18 @@
 package com.pe.mi.bebe.models;
 
 
-public class Health_problem {
+public class HealthProblem {
 
     private int id;
     private String name;
 
-    public Health_problem(int id, String name) {
+    public HealthProblem(int id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    public HealthProblem(){
+
     }
 
 

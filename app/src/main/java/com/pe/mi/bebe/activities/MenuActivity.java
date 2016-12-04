@@ -85,13 +85,13 @@ public class MenuActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case 3:
-                        intent = new Intent(view.getContext(),ControlgrowthActivity.class);
+                        intent = new Intent(view.getContext(),ControlGrowthActivity.class);
                         intent.putExtra("childID",getIntent().getStringExtra("childID"));
                         intent.putExtra("childName",getIntent().getStringExtra("childName"));
                         startActivity(intent);
                         break;
                     case 4:
-                        intent = new Intent(view.getContext(),ControlvaccinesActivity.class);
+                        intent = new Intent(view.getContext(),ControlVaccinesActivity.class);
                         intent.putExtra("childID",getIntent().getStringExtra("childID"));
                         intent.putExtra("childName",getIntent().getStringExtra("childName"));
                         startActivity(intent);

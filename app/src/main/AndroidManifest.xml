@@ -65,7 +65,7 @@
                 android:value="com.pe.mi.bebe.activities.MenuActivity" />
         </activity>
         <activity
-            android:name="com.pe.mi.bebe.activities.ControlgrowthActivity"
+            android:name="com.pe.mi.bebe.activities.ControlGrowthActivity"
             android:label="@string/title_activity_controlgrowth"
             android:parentActivityName="com.pe.mi.bebe.activities.MenuActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -74,7 +74,7 @@
                 android:value="com.pe.mi.bebe.activities.MenuActivity" />
         </activity>
         <activity
-            android:name="com.pe.mi.bebe.activities.ControlvaccinesActivity"
+            android:name="com.pe.mi.bebe.activities.ControlVaccinesActivity"
             android:label="@string/title_activity_controlvaccines"
             android:parentActivityName="com.pe.mi.bebe.activities.MenuActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -100,6 +100,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.pe.mi.bebe.activities.LoginActivity" />
         </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="78cd579f6390f29dc20aba2cac27e684549f0315" />
     </application>
 
 </manifest>

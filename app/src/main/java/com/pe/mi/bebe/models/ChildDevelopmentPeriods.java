@@ -1,24 +1,28 @@
 package com.pe.mi.bebe.models;
 
 
-public class Child_development_periods {
+public class ChildDevelopmentPeriods {
 
     private int id;
     private String date;
     private double weight;
     private double size;
-    private double head_circunference;
+    private double headCircunference;
     private Child child;
-    private Child_development child_development;
+    private ChildDevelopment childDevelopment;
 
-    public Child_development_periods(int id, String date, double weight, double size, double head_circunference, Child child, Child_development child_development) {
+    public ChildDevelopmentPeriods(int id, String date, double weight, double size, double head_circunference, Child child, ChildDevelopment child_development) {
         this.id = id;
         this.date = date;
         this.weight = weight;
         this.size = size;
-        this.head_circunference = head_circunference;
+        this.headCircunference = head_circunference;
         this.child = child;
-        this.child_development = child_development;
+        this.childDevelopment = child_development;
+    }
+
+    public ChildDevelopmentPeriods(){
+
     }
 
     public Child getChild() {
@@ -27,14 +31,6 @@ public class Child_development_periods {
 
     public void setChild(Child child) {
         this.child = child;
-    }
-
-    public Child_development getChild_development() {
-        return child_development;
-    }
-
-    public void setChild_development(Child_development child_development) {
-        this.child_development = child_development;
     }
 
     public double getWeight() {
@@ -69,25 +65,31 @@ public class Child_development_periods {
         this.size = size;
     }
 
-    public double getHead_circunference() {
-        return head_circunference;
+    public double getHeadCircunference() {
+        return headCircunference;
     }
 
-    public void setHead_circunference(double head_circunference) {
-        this.head_circunference = head_circunference;
+    public void setHeadCircunference(double headCircunference) {
+        this.headCircunference = headCircunference;
     }
 
+    public ChildDevelopment getChildDevelopment() {
+        return childDevelopment;
+    }
 
+    public void setChildDevelopment(ChildDevelopment childDevelopment) {
+        this.childDevelopment = childDevelopment;
+    }
 
-    public String add_Child_development() {
+    public String addChildDevelopment() {
 
         return "Información de crecimiento registrada " + getChild().getName();
 
     }
 
-    public String get_Child_development(int id_child) {
+    public String getChildDevelopmentPeriods() {
 
-        return "Consulta control de crecimiento de codigo : "  + getChild().getChildid();
+        return "Consulta control de crecimiento de "  + getChild().getName();
 
     }
 

@@ -17,10 +17,13 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.appsee.Appsee;
 import com.pe.mi.bebe.adapters.ChildArrayAdapter;
 import com.pe.mi.bebe.adapters.DataSource;
 import com.pe.mi.bebe.R;
 import com.pe.mi.bebe.models.Child;
+
+import io.fabric.sdk.android.Fabric;
 
 
 public class PrincipalActivity extends AppCompatActivity
@@ -37,6 +40,8 @@ public class PrincipalActivity extends AppCompatActivity
         setContentView(R.layout.activity_principal);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        Fabric.with(this);
+        Appsee.start(getString(R.string.com_appsee_apikey));
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

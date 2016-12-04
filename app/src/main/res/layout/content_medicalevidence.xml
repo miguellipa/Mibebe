@@ -122,9 +122,9 @@
 
         <ImageView
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="121dp"
             android:id="@+id/incidenciaImageview"
-            android:src="@drawable/ic_menu_camera" />
+            android:src="@mipmap/ic_launcher" />
 
     </LinearLayout>
 

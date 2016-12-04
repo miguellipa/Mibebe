@@ -1,12 +1,12 @@
 package com.pe.mi.bebe.models;
 
 
-public class Medical_center {
+public class MedicalCenter {
 
     private int id;
     private String especiality;
 
-    public Medical_center(int id, String especiality) {
+    public MedicalCenter(int id, String especiality) {
         this.id = id;
         this.especiality = especiality;
     }

@@ -14,5 +14,6 @@
     <string name="title_activity_controlvaccines">Mis vacunas</string>
     <string name="title_activity_medicalevidence">Mis Evidencias Medicas</string>
     <string name="title_activity_poll">Encuesta</string>
+    <string name="com.appsee.apikey" translatable="false">25e4cce1c48e4004a720185441f64f2c</string>
 
 </resources>

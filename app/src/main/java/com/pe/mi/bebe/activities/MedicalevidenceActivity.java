@@ -41,6 +41,9 @@ import java.util.Calendar;
 import java.util.Hashtable;
 import java.util.Map;
 
+import io.fabric.sdk.android.Fabric;
+import com.crashlytics.android.Crashlytics;
+
 import com.pe.mi.bebe.R;
 
 public class MedicalevidenceActivity extends AppCompatActivity {
@@ -62,6 +65,7 @@ public class MedicalevidenceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_medicalevidence);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -101,7 +105,11 @@ public class MedicalevidenceActivity extends AppCompatActivity {
                                 loading.dismiss();
                                 Intent principal = new Intent(MedicalevidenceActivity.this,MenuActivity.class);
                                 startActivity(principal);
+                                //Forzar caida aplicación
+                                forceCrash();
                                 Toast.makeText(MedicalevidenceActivity.this, "Registro en proceso de transferencia...", Toast.LENGTH_LONG).show();
+
+
                             }
                         }){
                     @Override
@@ -179,6 +187,12 @@ public class MedicalevidenceActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void forceCrash() {
+        throw new RuntimeException("This is a crash");
+    }
+
+
     private void selectImage() {
 
         final CharSequence[] options = { "Tomar Foto", "Escojer una foto de la galeria","Cancelar" };

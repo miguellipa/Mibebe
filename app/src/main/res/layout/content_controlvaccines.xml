@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".activities.ControlvaccinesActivity"
+    tools:context=".activities.ControlVaccinesActivity"
     tools:showIn="@layout/activity_controlvaccines">
     <LinearLayout
         android:orientation="horizontal"
@@ -66,7 +66,7 @@
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/spinner" />
+            android:id="@+id/spinner_vaccine" />
     </LinearLayout>
 
     <LinearLayout
@@ -149,9 +149,10 @@
 
         <ImageView
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="125dp"
             android:id="@+id/imageView3"
-            android:src="@drawable/ic_menu_camera" />
+            android:src="@mipmap/ic_launcher"
+            android:elevation="1dp" />
     </LinearLayout>
 
 </RelativeLayout>

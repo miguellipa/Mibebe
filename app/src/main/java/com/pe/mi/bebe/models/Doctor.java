@@ -10,6 +10,9 @@ public class Doctor {
         this.especiality = especiality;
     }
 
+    public Doctor(){
+
+    }
 
     public String getEspeciality() {
         return especiality;
